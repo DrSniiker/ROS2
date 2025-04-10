@@ -29,7 +29,9 @@ install(PROGRAMS
   src/services/service_client.py
   src/services/service_server.py
   src/topics/listener.py
+  src/topics/listener_2.py
   src/topics/talker.py
+  src/topics/LTest.py
   src/parameters/param_talker.py
   src/parameters/config_reader.py
   src/actions/action_client.py
