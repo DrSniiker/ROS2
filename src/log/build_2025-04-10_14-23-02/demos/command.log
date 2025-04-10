@@ -1,6 +1,0 @@
-Invoking command in '/home/rosdev/ROS2/src/build/demos': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/rosdev/ROS2/src/demos/src/demos -DCMAKE_INSTALL_PREFIX=/home/rosdev/ROS2/src/install/demos
-Invoked command in '/home/rosdev/ROS2/src/build/demos' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/rosdev/ROS2/src/demos/src/demos -DCMAKE_INSTALL_PREFIX=/home/rosdev/ROS2/src/install/demos
-Invoking command in '/home/rosdev/ROS2/src/build/demos': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/rosdev/ROS2/src/build/demos -- -j12 -l12
-Invoked command in '/home/rosdev/ROS2/src/build/demos' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/rosdev/ROS2/src/build/demos -- -j12 -l12
-Invoking command in '/home/rosdev/ROS2/src/build/demos': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/rosdev/ROS2/src/build/demos
-Invoked command in '/home/rosdev/ROS2/src/build/demos' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/rosdev/ROS2/src/build/demos
