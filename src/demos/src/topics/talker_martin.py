@@ -15,7 +15,7 @@ class Talker(Node):
 
     def timer_callback(self):
         msg = String()
-        msg.data = "Hello robotics students: {0}".format(random.randint(0,100))
+        msg.data = "Jag gick i skolan i {0} år!".format(random.randint(0,100))
         #self.i += 1
         self.get_logger().info('Publishing: "{0}"'.format(msg.data))
         self.pub.publish(msg)
