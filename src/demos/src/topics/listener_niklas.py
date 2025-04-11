@@ -22,9 +22,12 @@ from std_msgs.msg import String
 
 class Listener(Node):
     def __init__(self):
-        super().__init__("listener")
+        super().__init__("niklas")
         self.sub = self.create_subscription(
-            String, "chatter", self.chatter_callback, 10
+            String, "topic_1", self.chatter_callback, 10
+        )
+        self.sub = self.create_subscription(
+            String, "topic_2", self.chatter_callback, 10
         )
 
     def chatter_callback(self, msg):
