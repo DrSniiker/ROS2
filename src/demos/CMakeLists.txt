@@ -30,8 +30,12 @@ install(PROGRAMS
   src/services/service_server.py
   src/topics/listener.py
   src/topics/listener_2.py
+  src/topics/l1.py
+  src/topics/l2.py
+  src/topics/l3.py
+  src/topics/t1.py
+  src/topics/t2.py
   src/topics/talker.py
-  src/topics/LTest.py
   src/parameters/param_talker.py
   src/parameters/config_reader.py
   src/actions/action_client.py
